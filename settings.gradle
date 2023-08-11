@@ -4,4 +4,4 @@ dependencyResolutionManagement {
 	}
 }
 
-rootProject.name = "JNanoId"
+rootProject.name = "jnanoid"
