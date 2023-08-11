@@ -12,8 +12,8 @@ generate NanoIDs.
 To generate a NanoID, you can use the `NanoId.random()` method:
 
 ```java
-NanoId nanoId = NanoId.random();
-System.out.println("Generated NanoID: " + nanoId.getIdString());
+NanoId nanoId=NanoId.random();
+System.out.println("Generated NanoID: "+nanoId.getIdString());
 ```
 
 You can also specify a desired length for the NanoID:
@@ -44,4 +44,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
