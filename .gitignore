@@ -1,0 +1,11 @@
+.*
+
+!.gitignore
+!.gitattributes
+!.editorconfig
+
+build/
+
+*.iws
+*.iml
+*.ipr
