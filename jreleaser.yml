@@ -1,0 +1,27 @@
+project:
+  name: JNanoID
+  description: This is a Java implementation of NanoID, a small, secure, URL-friendly, unique string ID generator.
+  longDescription: This is a Java implementation of NanoID, a small, secure, URL-friendly, unique string ID generator.
+  authors:
+    - Niklaus Bucher
+  license: MIT
+  links:
+    homepage: https://github.com/nikbucher/JNanoID/
+  java:
+    groupId: com.github.nikbucher
+    artifactId: jnanoid
+    version: 11
+  inceptionYear: 2023
+
+signing:
+  active: ALWAYS
+  armored: true
+
+release:
+  github:
+    owner: nikbucher
+
+distributions:
+  app:
+    artifacts:
+      - path: build/libs/{{distributionName}}-{{projectVersion}}.zip
