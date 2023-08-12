@@ -1,11 +1,10 @@
 package jnanoid;
 
 import java.security.SecureRandom;
-import java.util.Base64;
 import java.util.Objects;
 
 /**
- * A small, secure, URL-friendly, unique string ID generator.
+ * A small, secure, URL-friendly, unique string ID.
  */
 public final class NanoId {
 
@@ -16,11 +15,11 @@ public final class NanoId {
 	private final String idString;
 
 	/**
-	 * Constructs a new NanoId instance with the provided ID string for testing purposes.
+	 * Constructs a new NanoId instance with the provided ID string.
 	 *
 	 * @param idString The ID string.
 	 */
-	NanoId(String idString) {
+	public NanoId(String idString) {
 		Objects.requireNonNull(idString);
 		this.idString = idString;
 	}
