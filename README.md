@@ -1,4 +1,4 @@
-# NanoId Java Implementation
+# Java NanoId Implementation
 
 This is a Java implementation of NanoID, a small, secure, URL-friendly, unique string ID generator.
 

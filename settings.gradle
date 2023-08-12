@@ -4,4 +4,4 @@ dependencyResolutionManagement {
 	}
 }
 
-rootProject.name = "jnanoid"
+rootProject.name = "j-nanoid"
